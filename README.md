@@ -1,2 +1,2 @@
 # ToDoze
-summerteam
+ToDoze is  initially a academic project.
