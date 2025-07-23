@@ -595,8 +595,8 @@ background: rgba(0,0,0,0.5);
 <li><a href="#features" class="nav-link">Features</a></li>
 <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
 <li><a href="#about" class="nav-link">About</a></li>
-<li><a href="policy.php" class="nav-link">Policy</a></li>
-<li><a href="terms.php" class="nav-link">Terms</a></li>
+<li><a href="users/policy.php" class="nav-link">Policy</a></li>
+<li><a href="users/terms.php" class="nav-link">Terms</a></li>
 </ul>
 </nav>
 </div>
@@ -610,7 +610,7 @@ background: rgba(0,0,0,0.5);
 <h1>Simplified Task Management for You and Your Team</h1>
 <p>ToDoze helps you stay organized, whether you're managing personal tasks or collaborating with others.</p>
 <div class="hero-buttons">
-<a href="signin.php" class="btn btn-primary">Start Exploring</a>
+<a href="users/signin.php" class="btn btn-primary">Start Exploring</a>
 <a href="#features" class="btn btn-secondary">Learn More</a>
 </div>
 </div>
@@ -717,8 +717,8 @@ background: rgba(0,0,0,0.5);
 <div class="footer-column">
 <h3>Legal</h3>
 <ul class="footer-links">
-<li><a href="policy.php">Privacy Policy</a></li>
-<li><a href="terms.php">Terms of Service</a></li>
+<li><a href="usres/policy.php">Privacy Policy</a></li>
+<li><a href="users/terms.php">Terms of Service</a></li>
 </ul>
 </div>
 </div>

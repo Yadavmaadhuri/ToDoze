@@ -23,11 +23,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['taskid'], $_POST['tas
     mysqli_stmt_close($teamStmt);
 
     if (!empty($teamid)) {
-        header("Location: team_view.php?teamid=$teamid");
+        header("Location: team/team_view.php?teamid=$teamid");
         exit();
     }
 }
 
-header("Location: task.php");
+header("Location: task/task.php");
 exit();
 ?>

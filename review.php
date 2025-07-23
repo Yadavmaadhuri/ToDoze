@@ -1,11 +1,11 @@
 <?php
 session_start();
 include 'config/database.php';
-include 'load_username.php';
+include 'include/load_username.php';
 
 
 if (!isset($_SESSION['userid'])) {
-    header("Location: signin.php");
+    header("Location: users/signin.php");
     exit();
 }
 
@@ -84,8 +84,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<?php include 'navbar.php'; ?>
-<?php include 'toolbar.php'; ?>
+<?php include 'include/navbar.php'; ?>
+<?php include 'include/toolbar.php'; ?>
 
 <body id="body">
    
